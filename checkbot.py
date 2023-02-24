@@ -25,7 +25,7 @@ async def check_sub_channels(channels, user_id):
 async def start(message: types.Message):
     if message.chat.type == 'private':
         if await check_sub_channels(cfg.CHANNELS, message.from_user.id):
-            await bot.send_message(message.from_user.id, "Salam i vitanya", reply_markup=nav.profilekeyboard)
+            await bot.send_message(message.from_user.id, "Ти підписаний на канали для гіву вітаю", reply_markup=nav.profilekeyboard)
         else:
             await bot.send_message(message.from_user.id, cfg.NOT_SUB_MESSAGE, reply_markup=nav.showChannels())
 
