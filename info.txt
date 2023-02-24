@@ -1,0 +1,13 @@
+Bot bio
+    name: Telegive_bot
+    link: t.me/Bigtelegive_bot
+    BOT TOKEN: 5729519893:AAEp364nJgQEROZt4UoZHRxNtvq2G5r-CvM
+Channels bio
+    links:
+        Test channel 1 - https://t.me/task_test_channel1
+        Test channel 2 - https://t.me/task_test_channel2
+        Test channel 3 - https://t.me/task_test_channel3
+        Test channel 4 - https://t.me/task_test_channel4
+
+Other comments:
+    bot already is an admin of channels
