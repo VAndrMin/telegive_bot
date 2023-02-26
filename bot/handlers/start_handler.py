@@ -7,6 +7,6 @@ async def start_handler(update: Update, context: CallbackContext):
     chat_id = update.effective_chat.id
     name = update.effective_user.first_name
 
-    message = f"Hello {name}! Welcome to the Telegive bot."
+    message = f"Вітання {name}! Welcome to the Telegive bot. Ти живий а значить переміг."
 
     await context.bot.send_message(chat_id=chat_id, text=message)
