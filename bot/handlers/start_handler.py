@@ -28,3 +28,4 @@ async def check_is_chat_member(chat_id, user_id, bot):
     chat_member = await bot.get_chat_member(chat_id, user_id)
     is_chat_member = chat_member.status == "member"
     print(is_chat_member)
+
